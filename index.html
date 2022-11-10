@@ -5,25 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="ecUlPaAuopwW-KxUl2QkdkXrRGq8es1Ef1-qz1paQ5g" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="css/main.css">
-    <title>Snotbeams Portfolio</title>
+    <meta name="title" content="Anders Peter Sørensens Portfolio | Snotbeams Portfolio | Private Portfolio">
+    <meta name="description" content="CV and portfolio of Anders Peter Sørensen. Examples of coding websites and apps, game-jamming and making 3D-models. Available for web and app-development jobs">
+    <title>Anders Peter Sørensens CV and Portfolio | Private Portfolio </title>
 </head>
+
+<!-- Google tag (gtag.js) Not applied -->
+
+
     <body class="bg-cyan-100/50">
         <!--Navbar-->
-        <nav class="relative container mx-auto p-6">
+        <nav class=" container mx-auto p-6">
             <div class="flex justify-center items-center md:justify-between">
                 <!--Logo-->
                 <div class="h-16 w-16 drop-shadow-lg ">
                     <img src="img/SB-Logo.svg" alt="Logo">
                 </div>
                 <!--Menu-->
-                <div class="hidden md:flex space-x-6">
-                      <a href="#welcome" class="hover:text-darkGrayishBlue">Welcome</a> 
-                      <a href="#coding" class="hover:text-darkGrayishBlue">Coding</a> 
-                      <a href="#jams" class="hover:text-darkGrayishBlue">Game Jams</a> 
-                      <a href="#models" class="hover:text-darkGrayishBlue">3D Models</a> 
+                <div class="text-xl hidden md:flex space-x-6">
+                      <a href="#welcome" class="hover:text-darkGrayishBlue">Welcome</a>
+                      <a href="#coding" class="hover:text-darkGrayishBlue">Coding</a>
+                      <a href="#jams" class="hover:text-darkGrayishBlue">Game Jams</a>
+                      <a href="#models" class="hover:text-darkGrayishBlue">3D Models</a>
                     </div>
-                <!--Contact Button-->
+        
+                    <!--Contact Button-->
                     <a href="mailto:anderspeter1982@gmail.com" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full align-baseline hover:bg-brightRedLight">
                         Contact
                     </a>
@@ -34,35 +42,61 @@
             <section id="welcome" >
                 <div class="container mx-auto flex flex-col justify-center pb-96">
                     <heading class="text-3xl font-bold flex justify-center drop-shadow-md hover:drop-shadow-xl">Welcome</heading>
-                    <p class="flex justify-center text-center">Private portfolio of Anders Peter Sørensen</p>
-                    <p class="flex justify-center text-center">Examples of coding, jamming and 3D-models</p>
-                    <p class="flex justify-center text-center">I am available for web and app-development jobs</p>
-                    <p class="flex justify-center text-center">Have fun!</p>
+                    <p class="flex justify-center text-center p-2 md:text-left">
+                        Private portfolio of Anders Peter Sørensen<br/>
+                        Scroll down for examples of coding, jamming and 3D-models<br/>
+                        I am available for web and app-development jobs<br/>
+                        Have fun!
+                    </p>
+  
+            <!--CV and Certs Button-->
+                    <div class="flex justify-center text-center pt-8">
+                        <a href="cv.html" class=" p-3 px-6 pt-2 text-white bg-brightRed rounded-full align-baseline hover:bg-brightRedLight">
+                            Jump over to my CV and certifications
+                        </a>
+                    </div>
+
+                    <div class="flex flex-col justify-center text-center pt-8">
+                        
+                        <p class="flex justify-center text-center p-2 font-bold text-lg md:text-left">
+                        Current project:
+                        </p>
+                        <p class="mix-blend-color-dodge text-pink-300">The MERN stack</p> 
+                        <a class="flex justify-center pt-2" href="currentProject.html" target="_blank">
+                            <img id="shopifySmallPic" src="img/mern-stack.png">
+                        </a>
+                        <div class="flex justify-center text-center pt-8">
+
+                        <a href="currentProject.html" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full align-baseline hover:bg-brightRedLight">
+                            Learn more about my current and finished projects
+                        </a>
+                        </div>
+                    </div>
                 </div>
             </section>
+              
+                   
             
-            <div class="pb-60">
-
-            </div>
+            <div class="pb-60"></div>
         
         <section id="coding">
+
           <div class="container mx-auto flex flex-col justify-center border rounded border-transparent drop-shadow-lg bg-cyan-300/50">
         
             <heading class="text-3xl font-bold flex justify-center drop-shadow-md hover:drop-shadow-xl">Coding</heading>
              <div class="pb-3">
-                 <p class="flex justify-center">Coding: JavaScript, HTML, CSS, Tailwind CSS, TypeScript</p>
-                 <p class="flex justify-center">Frameworks: React & React Native</p>
+                 <p class="flex justify-center text-center md:text-left p-1">Coding: JavaScript, HTML, CSS, Tailwind CSS, TypeScript, Hydrogen(Shopify) <br/> Frameworks: React & React Native ></p>
              </div>
 
-               <p class="flex justify-center">Codes coded:</p>
+               <p class="flex justify-center text-center">Codes coded:</p>
 
                 <!--GitHub-->
                 <a class="flex justify-center pt-4 font-bold" id="profile-link" href="https://github.com/AndersPeter" target="_blank">GitHub</a>
-                <div class="w-2">
-                    
-                    <a class="flex justify-center pt-2" href="https://github.com/AndersPeter" target="_blank">
-                    <img class="flex justify-center pt-2" id="githubPic" src="img/GitHub1.png"> </a>
-                </div>
+               
+                <a class="flex justify-center pt-2" href="https://github.com/AndersPeter" target="_blank">
+                    <img id="githubPic" src="img/GitHub1.png">
+                </a>
+   
 
                 <!--Freecodecamp-->
                 <a class="flex justify-center pt-4 font-bold" id="profile-link" href="https://www.freecodecamp.org/snotbeam" target="_blank">FreeCodecamp</a>
@@ -79,7 +113,7 @@
         </section>
             
         <div class="pb-60"></div>
-            
+
         <section id="jams">
             <div class="container mx-auto flex flex-col justify-center border rounded border-transparent drop-shadow-lg bg-cyan-300/50">
 
@@ -90,8 +124,6 @@
                 <img id="gamesPic" src="img/Jams.png">
                 </a>
             </div>
-
-
         </section>
 
         <div class="pb-60"></div>
@@ -154,6 +186,7 @@
                             <img src="img/icon-youtube.svg" class="h-8" alt="">
                         </a>
                     </div>
+
                     <!--List container-->
                         <div class="flex flex-col justify-center space-y-3 text-white">
                             <a href="#welcome" class="hover:text-brightRed">Welcome</a>
